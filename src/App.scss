@@ -1,0 +1,65 @@
+.navbar-header {
+    width: 70%;
+}
+
+.navbar-nav.navbar-right:last-child {
+    font-size: 2rem;
+    margin-top: 20px;
+
+    .label-info {
+        margin-right: 10px;
+    }
+}
+
+.ww {
+    img {
+        width: 20%;
+    }
+}
+
+.product {
+    h4, p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 200px;
+    }
+
+    .card-product {
+        .img-wrap {
+            border-radius: 3px 3px 0 0;
+            overflow: hidden;
+            position: relative;
+            height: 220px;
+            text-align: center;
+            
+            img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .info-wrap {
+            overflow: hidden;
+            padding: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .bottom-wrap {
+            padding: 15px;
+            border-top: 1px solid #eee;
+
+            .disabled {
+                color: currentColor;
+                cursor: not-allowed;
+                opacity: 0.5;
+                text-decoration: none;
+            }
+        }
+
+        .price-old {
+            color: #999;
+        }
+    }
+}
